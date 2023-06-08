@@ -60,7 +60,9 @@ int main()
     cout << "index " << index1<<endl;
     int index2;
     index2=rbs(arr,n,key);
-    cout << "index " << index2;
+    cout << "index " << index2<<endl;
+    int total_occurance=index2-index1+1;
+    cout<<total_occurance;
 
     return 0;
 }
