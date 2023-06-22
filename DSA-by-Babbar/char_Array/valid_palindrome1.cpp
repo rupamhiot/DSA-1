@@ -67,8 +67,7 @@ int main()
     string arr;
     cout << "Enter word to check is it palindrome or not" << endl;
     cin >> arr;
-    string result = obj1.palindrome(arr);
-    cout << result;
+   cout<< obj1.palindrome(arr);
 
     return 0;
 }

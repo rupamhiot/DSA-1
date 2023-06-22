@@ -1,18 +1,21 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
+int length(char c[])
+{
+   int i = 0;
+   int count = 0;
+   while (c[i] != '\0')
+   {
+      count++;
+      i++;
+   }
+   return count;
+}
 int main()
 {
- string arr="Rupam";
- int i = 0;
- int count = 0;
- while (arr[i] !='\0')
- {
-    count++;
-    i++;
-    
- }
- cout<<count;
-           
-           
-return 0;
+   char arr[] = "Rupam jana";
+   cout <<length(arr);
+   
+
+   return 0;
 }
